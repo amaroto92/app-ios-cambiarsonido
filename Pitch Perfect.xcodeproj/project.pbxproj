@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286185D21B44F549008E3774 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286185D11B44F549008E3774 /* RecordedAudio.swift */; };
 		28F236861B40C8A3006FE626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F236851B40C8A3006FE626 /* AppDelegate.swift */; };
-		28F236881B40C8A3006FE626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F236871B40C8A3006FE626 /* ViewController.swift */; };
+		28F236881B40C8A3006FE626 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F236871B40C8A3006FE626 /* RecordSoundViewController.swift */; };
 		28F2368B1B40C8A3006FE626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F236891B40C8A3006FE626 /* Main.storyboard */; };
 		28F2368D1B40C8A3006FE626 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F2368C1B40C8A3006FE626 /* Images.xcassets */; };
 		28F236901B40C8A3006FE626 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F2368E1B40C8A3006FE626 /* LaunchScreen.xib */; };
 		28F2369C1B40C8A4006FE626 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2369B1B40C8A4006FE626 /* Pitch_PerfectTests.swift */; };
+		28F236A61B44694B006FE626 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F236A51B44694B006FE626 /* PlaySoundViewController.swift */; };
+		28F236A81B446F34006FE626 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28F236A71B446F34006FE626 /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286185D11B44F549008E3774 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		28F236801B40C8A3006FE626 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F236841B40C8A3006FE626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F236851B40C8A3006FE626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28F236871B40C8A3006FE626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28F236871B40C8A3006FE626 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		28F2368A1B40C8A3006FE626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F2368C1B40C8A3006FE626 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28F2368F1B40C8A3006FE626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		28F236951B40C8A4006FE626 /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F2369A1B40C8A4006FE626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F2369B1B40C8A4006FE626 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
+		28F236A51B44694B006FE626 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		28F236A71B446F34006FE626 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				28F236851B40C8A3006FE626 /* AppDelegate.swift */,
-				28F236871B40C8A3006FE626 /* ViewController.swift */,
+				28F236871B40C8A3006FE626 /* RecordSoundViewController.swift */,
 				28F236891B40C8A3006FE626 /* Main.storyboard */,
+				286185D11B44F549008E3774 /* RecordedAudio.swift */,
+				28F236A51B44694B006FE626 /* PlaySoundViewController.swift */,
 				28F2368C1B40C8A3006FE626 /* Images.xcassets */,
 				28F2368E1B40C8A3006FE626 /* LaunchScreen.xib */,
 				28F236831B40C8A3006FE626 /* Supporting Files */,
@@ -90,6 +98,7 @@
 		28F236831B40C8A3006FE626 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28F236A71B446F34006FE626 /* movie_quote.mp3 */,
 				28F236841B40C8A3006FE626 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +203,7 @@
 			files = (
 				28F2368B1B40C8A3006FE626 /* Main.storyboard in Resources */,
 				28F236901B40C8A3006FE626 /* LaunchScreen.xib in Resources */,
+				28F236A81B446F34006FE626 /* movie_quote.mp3 in Resources */,
 				28F2368D1B40C8A3006FE626 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F236881B40C8A3006FE626 /* ViewController.swift in Sources */,
+				286185D21B44F549008E3774 /* RecordedAudio.swift in Sources */,
+				28F236881B40C8A3006FE626 /* RecordSoundViewController.swift in Sources */,
+				28F236A61B44694B006FE626 /* PlaySoundViewController.swift in Sources */,
 				28F236861B40C8A3006FE626 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				28F236A11B40C8A4006FE626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28F236A21B40C8A4006FE626 /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				28F236A41B40C8A4006FE626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
